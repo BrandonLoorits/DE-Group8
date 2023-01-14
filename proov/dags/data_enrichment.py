@@ -14,7 +14,10 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-def enrich_data(df):
+def enrich_data():
+
+  df = pd.read_json("tryout.json", lines = True, encoding = "utf-8", dtype = False)
+
   works = Works()
 
   df["type"] = np.nan
@@ -23,8 +26,10 @@ def enrich_data(df):
   df["ISSN"] = np.nan
   df["publisher"] = np.nan
   df["venue"] = np.nan
+  df["category_full"] = np.nan
 
   for i in range(len(df)):
+
     authors = df["authors"][i]
     publication = df["title"][i]
     try:
@@ -67,10 +72,6 @@ def enrich_data(df):
           break
     except:
       continue
-  return df
-
-def full_category_name(df):
-  df["category_full"] = np.nan
 
   for i in range(len(df)):
     id = df.iloc[i,0]
@@ -82,4 +83,6 @@ def full_category_name(df):
     mydivs = soup.find("span", {"class": "primary-subject"})
 
     df["category_full"][i] = mydivs.text
-  return df
+  return ...
+  
+
