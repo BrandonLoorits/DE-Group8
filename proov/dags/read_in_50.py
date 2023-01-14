@@ -3,15 +3,17 @@ import zipfile
 import pandas as pd
 
 def read_in():
-    zf = zipfile.ZipFile('../data/archive.zip') 
+    #zf = zipfile.ZipFile('../data/archive.zip') 
 
     # Opening JSON file
-    f = zf.open('arxiv-metadata-oai-snapshot.json')
+    #f = zf.open('arxiv-metadata-oai-snapshot.json')
+
+    f = open("../data/data.json")
 
     reader = open("../data/counter.txt", "r")
     start = int(reader.readline())
     reader = open("../data/counter.txt", "w")
-    end = start+50000
+    end = start+50
     reader.write(str(end))
     reader.close()
 
@@ -34,6 +36,9 @@ def read_in():
     #print(df.shape)
     #print(df[df["authors"].isna()])
 
-    return df
+    #result = df.to_json("../data/data.json", orient="records", lines=True)
+    result = df.to_json("../data/tryout.json", orient="records", lines=True)
 
-#print(read_in())
+    return result
+
+print(read_in())
