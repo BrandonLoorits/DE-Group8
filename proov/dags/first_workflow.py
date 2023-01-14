@@ -35,19 +35,19 @@ with DAG(dag_id="workflow",default_args=default_args,schedule_interval='@daily')
         python_callable = process_data
         )
     
-    create_table = MySqlOperator(
-        task_id = "create_table",
-        mysql_conn_id = "mysql_db1",
-        sql="CREATE table IF NOT EXISTS aggre_res (stock_code varchar(100) NULL,descb varchar(100) NULL,country varchar(100) NULL,total_price varchar(100) NULL)"
-        )
+    #create_table = MySqlOperator(
+     #   task_id = "create_table",
+      #  mysql_conn_id = "mysql_db1",
+       # sql="CREATE DATABASE IF NOT EXISTS database_name ; USE database_name;CREATE table IF NOT EXISTS aggre_res (stock_code varchar(100) NULL,descb varchar(100) NULL,country varchar(100) NULL,total_price varchar(100) NULL)"
+        #)
     insert = MySqlOperator(
         task_id='insert_db', 
         mysql_conn_id="mysql_db1", 
-        sql="LOAD DATA  INFILE '/var/lib/mysql-files/fin.csv' INTO TABLE aggre_res FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;")
+        sql=" USE database_name;LOAD DATA  INFILE '/var/lib/mysql-files/fin.csv' INTO TABLE aggre_res FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS;")
 
     email = EmailOperator(task_id='send_email',
         to='looritsbrandon@gmail.com',
         subject='Daily report generated',
         html_content=""" <h1>Congratulations! Your store reports are ready.</h1> """,
         )
-    check_file >> pre_process >> agg >> create_table >> insert >> email
+    check_file >> pre_process >> agg  >> insert >> email
