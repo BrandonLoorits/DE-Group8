@@ -3,12 +3,12 @@ import zipfile
 import pandas as pd
 
 def read_in():
-    #zf = zipfile.ZipFile('../data/archive.zip') 
+    zf = zipfile.ZipFile('../data/data.zip') 
 
     # Opening JSON file
-    #f = zf.open('arxiv-metadata-oai-snapshot.json')
+    f = zf.open('data.json')
 
-    f = open("../data/data.json")
+    #f = open("../data/data.json")
 
     reader = open("../data/counter.txt", "r")
     start = int(reader.readline())
