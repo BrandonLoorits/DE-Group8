@@ -83,6 +83,7 @@ def enrich_data():
     mydivs = soup.find("span", {"class": "primary-subject"})
 
     df["category_full"][i] = mydivs.text
-  return ...
+
+  df.to_csv("~/op_files/fin.csv",index=False)
   
 

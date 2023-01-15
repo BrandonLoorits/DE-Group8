@@ -8,12 +8,14 @@ services:
             - POSTGRES_DB=airflow
     mysql:
 
-        image: mysql:5.7.27
+        image: mysql:latest
         environment:
             - MYSQL_ROOT_PASSWORD=root
         volumes:
             - ./op_files:/var/lib/mysql-files/
-            - ./mysql.cnf:/etc/mysql/mysql.cnf    
+            - ./mysql.cnf:/etc/mysql/mysql.cnf 
+        ports:
+            - "3306:3306"
     webserver:
         image: puckel/docker-airflow:1.10.9
         restart: always
