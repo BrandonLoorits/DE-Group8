@@ -32,14 +32,30 @@ def read_in():
                 break
 
     df = pd.DataFrame.from_dict(data)
-    df = df.drop(columns=['abstract'])
+    df.drop(columns=['abstract'])
     #print(df.head(5))
     #print(df.shape)
     #print(df[df["authors"].isna()])
 
-    #result = df.to_json("../data/data.json", orient="records", lines=True)
-    df.to_json("~/data/tryout.json", orient="records", lines=True)
+    # delete all rows with column 'authors' has value None
+    indexAuthors = df[df["authors"].isna()].index
+    df.drop(indexAuthors , inplace=True)
 
+    # delete all rows with column 'title' has value lenght smaller than 2
+    #indexTitles = df[len(df['title'].to_string().split()) < 2].index
     
+    # delete all rows with column 'title', where title does not contain value ' '(space),
+    # which means the title consists of one word
+    indexTitles = df[df['title'].str.contains(" ", na=False)].index
+    df.drop(indexTitles , inplace=False)
+
+    #df.drop(indexTitles , inplace=True)
+
+    #print(df.head(5))
+    #print(df.shape)
+    
+    result = df.to_json("../data/tryout.json", orient="records", lines=True)
+
+    return result
 
 #print(read_in())
