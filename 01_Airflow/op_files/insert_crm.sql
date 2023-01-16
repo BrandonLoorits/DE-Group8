@@ -1,883 +1,839 @@
 INSERT INTO ARTICLES
     (id, submitter, authors, title, comments, journalREF, doi, reportNO, categories, license, abstract, versions, updateDATE, authorsPARSED)
     
-        SELECT '704.0201' as id
-        , 'Weiqiang Wang' as submitter
-        , 'Ta Khongsap, Weiqiang Wang' as authors
-        , 'Hecke-Clifford algebras and spin Hecke algebras I: the classical affine
-  type' as title
-        , 'v3, proofs of Thms 3.4 and 3.11 modified and other minor changes, to
-  appear in Transformation Groups' as comments
-        , 'Transformation Groups, vol. 13 (2008), 389--412.' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'math.RT math.QA' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:13:54 GMT}, {version: v2, created: Fri, 24 Aug 2007 19:06:46 GMT}, {version: v3, created: Wed, 17 Oct 2007 01:26:44 GMT}]' as versions
-        , '2008-08-06' as updateDATE
-        , '[[Khongsap, Ta, ], [Wang, Weiqiang, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0202' as id
-        , 'Simon Perdrix' as submitter
-        , 'Simon Perdrix' as authors
-        , 'Towards Minimal Resources of Measurement-based Quantum Computation' as title
-        , '8 pages' as comments
-        , 'New J. Phys. 9 206 (2007)' as journalREF
-        , '10.1088/1367-2630/9/6/206' as doi
-        , 'nan' as reportNO
-        , 'quant-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:21:53 GMT}]' as versions
-        , '2007-09-20' as updateDATE
-        , '[[Perdrix, Simon, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0203' as id
-        , 'August Muench' as submitter
-        , 'August A. Muench, Charles J. Lada, K. L. Luhman, James Muzerolle and
-  Erick Young' as authors
-        , 'A Spitzer census of the IC 348 nebula' as title
-        , 'Accepted to AJ; 33 pages in emulateapj format.' as comments
-        , 'Astron.J.134:411-444,2007' as journalREF
-        , '10.1086/518560' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:24:07 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Muench, August A., ], [Lada, Charles J., ], [Luhman, K. L., ], [Muzerolle, James, ], [Young, Erick, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0204' as id
-        , 'Marco Giuseppe Pala' as submitter
-        , 'Marco G. Pala, Michele Governale, J\"urgen K\"onig' as authors
-        , 'Non-Equilibrium Josephson and Andreev Current through Interacting
-  Quantum Dots' as title
-        , '11 pages, 4 figures' as comments
-        , 'New J. Phys. 9 (2007) 278' as journalREF
-        , '10.1088/1367-2630/9/8/278' as doi
-        , 'nan' as reportNO
-        , 'cond-mat.supr-con cond-mat.mes-hall' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:27:19 GMT}, {version: v2, created: Wed, 29 Aug 2007 15:08:14 GMT}]' as versions
-        , '2010-09-03' as updateDATE
-        , '[[Pala, Marco G., ], [Governale, Michele, ], [König, Jürgen, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0205' as id
-        , 'Paolo Esposito' as submitter
-        , 'P. Esposito, A. Tiengo, A. De Luca, F. Mattana' as authors
-        , 'Discovery of X-ray emission from the young radio pulsar PSR J1357-6429' as title
-        , 'Revised version (minor changes in text and figures). Accepted for
-  publication on Astronomy and Astrophysics Letters on 10/04/2007' as comments
-        , 'Astronomy and Astrophysics, Volume 467, Issue 2, May IV 2007,
-  pp.L45-L48' as journalREF
-        , '10.1051/0004-6361:20077480' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:28:29 GMT}, {version: v2, created: Wed, 11 Apr 2007 11:32:02 GMT}]' as versions
-        , '2009-02-23' as updateDATE
-        , '[[Esposito, P., ], [Tiengo, A., ], [De Luca, A., ], [Mattana, F., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0206' as id
-        , 'Stefano Lepri' as submitter
-        , 'Stefano Lepri, Giovanni Giacomelli' as authors
-        , 'Resonant activation in bistable semiconductor lasers' as title
-        , 'Submitted to Phys. Rev. A' as comments
-        , 'nan' as journalREF
-        , '10.1103/PhysRevA.76.023815' as doi
-        , 'nan' as reportNO
-        , 'physics.optics' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:28:51 GMT}]' as versions
-        , '2009-11-13' as updateDATE
-        , '[[Lepri, Stefano, ], [Giacomelli, Giovanni, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0207' as id
-        , 'Madappa Prakash' as submitter
-        , 'M Prakash' as authors
-        , 'Quark matter and the astrophysics of neutron stars' as title
-        , '8 pages, 6 figures, Plenary talk in Quark Matter 2006 to appear in J.
-  Phys. G: Nucl. Part. Phys. 34 (2007)' as comments
-        , 'J.Phys.G34:S253-260,2007' as journalREF
-        , '10.1088/0954-3899/34/8/S10' as doi
-        , 'nan' as reportNO
-        , 'astro-ph gr-qc nucl-th' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:30:12 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Prakash, M, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0208' as id
-        , 'Seung-Moon Hong Mr' as submitter
-        , 'Tobias J. Hagge and Seung-Moon Hong' as authors
-        , 'Some non-braided fusion categories of rank 3' as title
-        , '18 pages, 7 figures, v2. Many expository improvements based on
-  referee feedback, most notably to the proof of the main theorem and the
-  section on pivotal structures. Fewer details are left to the reader. A new
-  section outlines the structure of the proof of the main theorem and its
-  relation to other results in the paper' as comments
+        SELECT '704.0051' as id
+        , 'Scott M. Cohen' as submitter
+        , 'Scott M. Cohen' as authors
+        , 'Visualizing Teleportation' as title
+        , 'This is a "teaching" article aimed at making teleportation
+  understandable to undergraduate physics majors (and possibly others). Version
+  2 has previous appendix moved to early sections, and more clearly states aim
+  is to present a way physicists can explain teleportation to non-scientists' as comments
         , 'nan' as journalREF
         , 'nan' as doi
         , 'nan' as reportNO
-        , 'math.GT math.QA' as categories
+        , 'physics.ed-ph quant-ph' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:36:30 GMT}, {version: v2, created: Mon, 24 Sep 2007 18:21:38 GMT}]' as versions
-        , '2007-09-24' as updateDATE
-        , '[[Hagge, Tobias J., ], [Hong, Seung-Moon, ]]' as authorsPARSED
+        , '[{version: v1, created: Mon, 2 Apr 2007 18:17:41 GMT}, {version: v2, created: Tue, 13 May 2008 23:16:22 GMT}]' as versions
+        , '2008-05-14' as updateDATE
+        , '[[Cohen, Scott M., ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0209' as id
-        , 'Sangwook Park' as submitter
-        , 'Sangwook Park, David N. Burrows, Gordon P. Garmire (Penn State),
-  Richard McCray (Colorado), Judith L. Racusin (Penn State), Svetozar A. Zhekov
-  (Space Res Inst)' as authors
-        , 'Chandra Observations of Supernova 1987A' as title
-        , '8 pages, 4 figures (including 2 color figs), 3 tables. To appear in
-  the proceedings of "Supernova 1987A: 20 Years after Supernovae and Gamma-Ray
-  Bursters", held in Aspen CO. USA, Feb 19-23, 2007' as comments
-        , 'AIP Conf.Proc.937:43-50,2007' as journalREF
-        , '10.1063/1.2803606' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 14:58:36 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Park, Sangwook, , Penn State], [Burrows, David N., , Penn State], [Garmire, Gordon P., , Penn State], [McCray, Richard, , Colorado], [Racusin, Judith L., , Penn State], [Zhekov, Svetozar A., , Space Res Inst]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.021' as id
-        , 'Andrew Dancer' as submitter
-        , 'Andrew Dancer, Mckenzie Wang' as authors
-        , 'Classification of superpotentials' as title
-        , 'nan' as comments
+        SELECT '704.0052' as id
+        , 'William Gordon Ritter' as submitter
+        , 'Arthur Jaffe (1) and Gordon Ritter (1) ((1) Harvard University)' as authors
+        , 'Quantum Field Theory on Curved Backgrounds. II. Spacetime Symmetries' as title
+        , '18 pages, 1 figure' as comments
         , 'nan' as journalREF
-        , '10.1007/s00220-008-0641-z' as doi
-        , 'nan' as reportNO
-        , 'math.DG' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:10:44 GMT}]' as versions
-        , '2009-11-13' as updateDATE
-        , '[[Dancer, Andrew, ], [Wang, Mckenzie, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0211' as id
-        , 'Deryk Osthus' as submitter
-        , 'Daniela K\"uhn and Deryk Osthus' as authors
-        , 'Linkedness and ordered cycles in digraphs' as title
-        , 'nan' as comments
-        , 'nan' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'math.CO' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:11:56 GMT}]' as versions
-        , '2007-05-23' as updateDATE
-        , '[[Kühn, Daniela, ], [Osthus, Deryk, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0212' as id
-        , 'Krzysztof Turzynski' as submitter
-        , 'Z. Lalak, D. Langlois, S. Pokorski, K. Turzynski' as authors
-        , 'Curvature and isocurvature perturbations in two-field inflation' as title
-        , '29 pages, 12 figures; v2: updated references, discussion extended,
-  matches the published version' as comments
-        , 'JCAP 0707:014,2007' as journalREF
-        , '10.1088/1475-7516/2007/07/014' as doi
-        , 'nan' as reportNO
-        , 'hep-th astro-ph gr-qc' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:12:23 GMT}, {version: v2, created: Fri, 13 Jul 2007 19:45:32 GMT}]' as versions
-        , '2009-11-13' as updateDATE
-        , '[[Lalak, Z., ], [Langlois, D., ], [Pokorski, S., ], [Turzynski, K., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0213' as id
-        , 'Ketan Mulmuley D' as submitter
-        , 'Ketan D. Mulmuley Hariharan Narayanan' as authors
-        , 'Geometric Complexity Theory V: On deciding nonvanishing of a generalized
-  Littlewood-Richardson coefficient' as title
-        , 'This article has been withdrawn because it has been merged with the
-  earlier article (GCT3) in the series, and a new article appears in this GCT5
-  slot now as shown in the abstract' as comments
-        , 'nan' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'cs.CC' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:13:27 GMT}, {version: v2, created: Thu, 27 Sep 2012 15:23:39 GMT}]' as versions
-        , '2012-09-28' as updateDATE
-        , '[[Narayanan, Ketan D. Mulmuley Hariharan, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0214' as id
-        , 'Miloslav Znojil' as submitter
-        , 'Miloslav Znojil' as authors
-        , 'A schematic model of scattering in PT-symmetric Quantum Mechanics' as title
-        , '16 pp., a part of the talk to be presented during the 2nd Int.
-  Doppler-Institute Microconference on the Analytic and Algebraic Methods:
-  Prague, Villa Lanna, April 3rd, 2007, cf.
-  http://gemma.ujf.cas.cz/%7Eznojil/conf/micromeetingII.html' as comments
-        , 'nan' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'quant-ph hep-th' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:13:32 GMT}]' as versions
-        , '2007-05-23' as updateDATE
-        , '[[Znojil, Miloslav, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0215' as id
-        , 'Tomasz Rolski' as submitter
-        , 'Zbigniew Pucha{\l}a and Tomasz Rolski' as authors
-        , 'The exact asymptotic of the collision time tail distribution for
-  independent Brownian particles with different drifts' as title
-        , '20 pages' as comments
-        , 'Probab. Theor. Relat. Field., Vol. 142, No. 3-4, pp. 595-617,
-  (2008)' as journalREF
-        , '10.1007/s00440-007-0116-8' as doi
-        , 'nan' as reportNO
-        , 'math.PR' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:27:17 GMT}]' as versions
-        , '2011-08-09' as updateDATE
-        , '[[Puchała, Zbigniew, ], [Rolski, Tomasz, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0216' as id
-        , 'Alexander Mattausch' as submitter
-        , 'Alexander Mattausch and Oleg Pankratov' as authors
-        , 'Ab initio Study of Graphene on SiC' as title
-        , '4 pages, 3 figures, 1 table; Submitted to Physical Review Letters on
-  01/08/07' as comments
-        , 'nan' as journalREF
-        , '10.1103/PhysRevLett.99.076802' as doi
-        , 'nan' as reportNO
-        , 'cond-mat.mtrl-sci' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:28:52 GMT}, {version: v2, created: Mon, 16 Apr 2007 14:57:08 GMT}]' as versions
-        , '2009-11-13' as updateDATE
-        , '[[Mattausch, Alexander, ], [Pankratov, Oleg, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0217' as id
-        , 'Wiroonsak Santipach' as submitter
-        , 'Wiroonsak Santipach and Michael L. Honig' as authors
-        , 'Capacity of a Multiple-Antenna Fading Channel with a Quantized Precoding
-  Matrix' as title
-        , 'nan' as comments
-        , 'IEEE Trans. Inf. Theory, vol. 55, no. 3, pp. 1218--1234, March
-  2009' as journalREF
-        , '10.1109/TIT.2008.2011437' as doi
-        , 'nan' as reportNO
-        , 'cs.IT math.IT' as categories
-        , 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:35:24 GMT}, {version: v2, created: Tue, 17 Feb 2009 03:49:20 GMT}]' as versions
-        , '2010-08-27' as updateDATE
-        , '[[Santipach, Wiroonsak, ], [Honig, Michael L., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0218' as id
-        , 'Yuri Pritykin' as submitter
-        , 'Yuri Pritykin' as authors
-        , 'On Almost Periodicity Criteria for Morphic Sequences in Some Particular
-  Cases' as title
-        , '9 pages. To be presented on 11th International Conference on
-  Developments in Language Theory (DLT2007), Turku, Finland, July 2007.' as comments
-        , 'nan' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'cs.DM cs.LO' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:45:37 GMT}]' as versions
-        , '2007-05-23' as updateDATE
-        , '[[Pritykin, Yuri, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0219' as id
-        , 'Joseph Gelfand' as submitter
-        , 'Joseph D. Gelfand, B. M. Gaensler, Patrick O. Slane, Daniel J.
-  Patnaude, John P. Hughes, Fernando Camilo' as authors
-        , 'The Radio Emission, X-ray Emission, and Hydrodynamics of G328.4+0.2: A
-  Comprehensive Analysis of a Luminous Pulsar Wind Nebula, its Neutron Star,
-  and the Progenitor Supernova Explosion' as title
-        , '27 pages, 11 figures, accepted for publication in The Astrophysical
-  Journal' as comments
-        , 'Astrophys.J.663:468-486,2007' as journalREF
-        , '10.1086/518498' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:45:44 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Gelfand, Joseph D., ], [Gaensler, B. M., ], [Slane, Patrick O., ], [Patnaude, Daniel J., ], [Hughes, John P., ], [Camilo, Fernando, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.022' as id
-        , 'Jason Ulery' as submitter
-        , 'Jason Glyndwr Ulery (for the STAR Collaboration)' as authors
-        , 'Three Particle Correlations from STAR' as title
-        , 'Talk given at IWCF 2006, Hangzhou, China. 8 Pages, 8 Figures' as comments
-        , 'Int.J.Mod.Phys.E16:3123-3130,2008' as journalREF
-        , '10.1142/S0218301307009117' as doi
-        , 'nan' as reportNO
-        , 'nucl-ex' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:45:49 GMT}]' as versions
-        , '2008-11-26' as updateDATE
-        , '[[Ulery, Jason Glyndwr, , for the STAR Collaboration]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0221' as id
-        , 'Lawrence M. Krauss' as submitter
-        , 'Lawrence M. Krauss (1,2) and Robert J. Scherrer (2) ((1) Case Western
-  Reserve University, (2) Vanderbilt University)' as authors
-        , 'The Return of a Static Universe and the End of Cosmology' as title
-        , '5th prize 2007 Gravity Research Foundation Essay Competition, to
-  appear, GRG October 2007; typos corrected; references updated' as comments
-        , 'Gen.Rel.Grav.39:1545-1550,2007; Int.J.Mod.Phys.D17:685-690,2008' as journalREF
-        , '10.1007/s10714-007-0472-9 10.1142/S0218271808012449' as doi
-        , 'nan' as reportNO
-        , 'astro-ph gr-qc hep-ph hep-th' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:47:04 GMT}, {version: v2, created: Wed, 23 May 2007 02:37:09 GMT}, {version: v3, created: Wed, 27 Jun 2007 19:04:44 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Krauss, Lawrence M., ], [Scherrer, Robert J., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0222' as id
-        , 'Miguel \Angel S\anchez-Conde Mr.' as submitter
-        , 'Miguel A. Sanchez-Conde' as authors
-        , 'Dark Matter annihilation in Draco: new considerations on the expected
-  gamma flux' as title
-        , '2 pages, 2 figures, to appear in the Proceedings of the First
-  International GLAST Symposium, Stanford University, 5-8 February 2007' as comments
-        , 'AIP Conf.Proc.921:510-511,2007' as journalREF
-        , '10.1063/1.2757426' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:52:54 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Sanchez-Conde, Miguel A., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0223' as id
-        , 'Fu-Yan Bian' as submitter
-        , 'Yu-Qing Lou (1,2,3) and Wei-Gang Wang (1), ((1) Tsinghua Center For
-  astrophysics, Tsinghua University, (2)The University of Chicago, (3) National
-  Astronomical Observatories, Chinese Academy of Science.)' as authors
-        , 'Magnetohydrodynamic Rebound Shocks of Supernovae' as title
-        , '5 pages, 1 figure, Accepted for publication in MNRAS' as comments
-        , 'Mon.Not.Roy.Astron.Soc.Lett.378:L54-L58,2007' as journalREF
-        , '10.1111/j.1745-3933.2007.00319.x' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:53:03 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Lou, Yu-Qing, ], [Wang, Wei-Gang, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0224' as id
-        , 'Jason Ulery' as submitter
-        , 'Jason Glyndwr Ulery (for the STAR Collaboration)' as authors
-        , 'Are There Mach Cones in Heavy Ion Collisions? Three-Particle
-  Correlations from STAR' as title
-        , 'Poster shown at Quark Matter 2006, Shanghai, China. 6 Pages, 6
-  Figures' as comments
-        , 'Int.J.Mod.Phys.E16:2005-2010,2007' as journalREF
-        , '10.1142/S0218301307007374' as doi
-        , 'nan' as reportNO
-        , 'nucl-ex' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 15:55:08 GMT}]' as versions
-        , '2008-11-26' as updateDATE
-        , '[[Ulery, Jason Glyndwr, , for the STAR Collaboration]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0225' as id
-        , 'Alexander Kashlinsky' as submitter
-        , 'A. Kashlinsky and D. Band' as authors
-        , 'Exploring First Stars Era with GLAST' as title
-        , 'to appear in Proceedings of 1st International GLAST Symposium' as comments
-        , 'AIP Conf.Proc.921:243-245,2007' as journalREF
-        , '10.1063/1.2757312' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:13:32 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Kashlinsky, A., ], [Band, D., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0226' as id
-        , 'Francesco Tombesi' as submitter
-        , 'F. Tombesi (1,2), B. De Marco (3), K. Iwasawa (4), M. Cappi (1), M.
-  Dadina (1), G. Ponti (1,2), G. Miniutti (5) and G.G.C. Palumbo (2) ((1)
-  INAF-IASF Bologna, (2) UNIBO, (3) SISSA, (4) MPE, (5) Institute of Astronomy,
-  Cambridge)' as authors
-        , 'Correlated modulation between the redshifted Fe K alpha line and the
-  continuum emission in NGC 3783' as title
-        , '8 pages, 7 figures, to be published in Astronomy and Astrophysics' as comments
-        , 'nan' as journalREF
-        , '10.1051/0004-6361:20066713' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:50:23 GMT}]' as versions
-        , '2009-11-13' as updateDATE
-        , '[[Tombesi, F., ], [De Marco, B., ], [Iwasawa, K., ], [Cappi, M., ], [Dadina, M., ], [Ponti, G., ], [Miniutti, G., ], [Palumbo, G. G. C., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0227' as id
-        , 'Concettina Sfienti Dr' as submitter
-        , 'C.Sfienti, M. De Napoli, S. Bianchin, A.S. Botvina, J. Brzychczyk, A.
-  Le Fevre, J. Lukasik, P. Pawlowski, W. Trautmann and the ALADiN2000
-  Collaboration' as authors
-        , 'Isotopic Effects in Nuclear Reactions at Relativistic Energies' as title
-        , '10 pages, 5 figures, Proceeding of the XLV International Winter
-  Meeting on Nuclear Physics, Bormio (Italy), 14-21 January 2007' as comments
-        , 'nan' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'nucl-ex' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:37:40 GMT}]' as versions
-        , '2007-05-23' as updateDATE
-        , '[[Sfienti, C., ], [De Napoli, M., ], [Bianchin, S., ], [Botvina, A. S., ], [Brzychczyk, J., ], [Fevre, A. Le, ], [Lukasik, J., ], [Pawlowski, P., ], [Trautmann, W., ], [Collaboration, the ALADiN2000, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0228' as id
-        , 'Th. M. Nieuwenhuizen' as submitter
-        , 'Theo M. Nieuwenhuizen' as authors
-        , 'Einstein vs Maxwell: Is gravitation a curvature of space, a field in
-  flat space, or both?' as title
-        , '5 pages, 1 figure' as comments
-        , 'Europhys.Lett.78:10010,2007' as journalREF
-        , '10.1209/0295-5075/78/10010' as doi
-        , 'nan' as reportNO
-        , 'gr-qc astro-ph quant-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:38:53 GMT}]' as versions
-        , '2008-11-26' as updateDATE
-        , '[[Nieuwenhuizen, Theo M., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0229' as id
-        , 'Ketan Mulmuley D' as submitter
-        , 'Ketan D. Mulmuley' as authors
-        , 'Geometric Complexity Theory VI: the flip via saturated and positive
-  integer programming in representation theory and algebraic geometry' as title
-        , '139 pages. Corrects error in the conjectural saturation hypothesis
-  (SH) in the earlier version, which was pointed out in a recent paper of
-  Briand et al (arXIv:0810.3163v1 [math.CO])' as comments
-        , 'nan' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'cs.CC' as categories
-        , 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:41:38 GMT}, {version: v2, created: Fri, 18 May 2007 19:55:46 GMT}, {version: v3, created: Mon, 28 Apr 2008 19:49:27 GMT}, {version: v4, created: Thu, 22 Jan 2009 15:25:24 GMT}]' as versions
-        , '2009-01-22' as updateDATE
-        , '[[Mulmuley, Ketan D., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.023' as id
-        , 'Rene Duffard' as submitter
-        , 'R. Duffard and F. Roig' as authors
-        , 'Two new basaltic asteroids in the Outer Main Belt?' as title
-        , '13 pages, 3 figures, 2 tables' as comments
-        , 'nan' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:42:38 GMT}, {version: v2, created: Mon, 14 Jan 2008 19:06:00 GMT}]' as versions
-        , '2008-01-14' as updateDATE
-        , '[[Duffard, R., ], [Roig, F., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0231' as id
-        , 'Joaquim Ortega-Cerda' as submitter
-        , 'Joaquim Ortega-Cerda' as authors
-        , 'Interpolating and sampling sequences in finite Riemann surfaces' as title
-        , 'nan' as comments
-        , 'Bull. Lond. Math. Soc. 40 (2008), no. 5, 876--886' as journalREF
-        , '10.1112/blms/bdn071' as doi
-        , 'nan' as reportNO
-        , 'math.CV' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:46:30 GMT}]' as versions
-        , '2014-02-26' as updateDATE
-        , '[[Ortega-Cerda, Joaquim, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0232' as id
-        , 'Christoph Bergbauer' as submitter
-        , 'Christoph Bergbauer, Dirk Kreimer' as authors
-        , 'New algebraic aspects of perturbative and non-perturbative Quantum Field
-  Theory' as title
-        , '15 pages, Contribution to the Proceedings of the ICMP 2006, 2 typos
-  corrected, final version' as comments
-        , 'in "New Trends in Mathematical Physics; Selected contributions of
-  the XVth International Congress on Mathematical Physics", V. Sidoravicius
-  (Ed.), Springer (2009)' as journalREF
         , 'nan' as doi
         , 'nan' as reportNO
         , 'hep-th' as categories
-        , 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:47:55 GMT}, {version: v2, created: Wed, 4 Nov 2009 12:36:09 GMT}]' as versions
-        , '2009-11-04' as updateDATE
-        , '[[Bergbauer, Christoph, ], [Kreimer, Dirk, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0233' as id
-        , 'Sandro Wimberger' as submitter
-        , 'Andrea Tomadin, Riccardo Mannella, and Sandro Wimberger' as authors
-        , 'Many-body interband tunneling as a witness for complex dynamics in the
-  Bose-Hubbard model' as title
-        , '4 pages, 3 figures' as comments
-        , 'Phys. Rev. Lett. 98, 130402 (2007)' as journalREF
-        , '10.1103/PhysRevLett.98.130402' as doi
-        , 'nan' as reportNO
-        , 'cond-mat.other' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:52:05 GMT}]' as versions
-        , '2007-10-10' as updateDATE
-        , '[[Tomadin, Andrea, ], [Mannella, Riccardo, ], [Wimberger, Sandro, ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0234' as id
-        , 'Gabriele Ghisellini' as submitter
-        , 'G. Ghirlanda (1), L. Nava (1,2), G. Ghisellini (1), C. Firmani (1,3)
-  ((1) Osserv. Astr. di Brera, (2) Univ. degli Studi dellInsubria, (3)
-  U.N.A.M.)' as authors
-        , 'Comments on ``Are Swift Gamma-Ray Bursts consistent with the Ghirlanda
-  relation?", by Campana et al.(astro--ph/0703676)' as title
-        , '3 pages' as comments
-        , 'nan' as journalREF
-        , 'nan' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:49:34 GMT}]' as versions
+        , '[{version: v1, created: Sat, 31 Mar 2007 20:07:39 GMT}]' as versions
         , '2007-05-23' as updateDATE
-        , '[[Ghirlanda, G., ], [Nava, L., ], [Ghisellini, G., ], [Firmani, C., ]]' as authorsPARSED
+        , '[[Jaffe, Arthur, , Harvard University], [Ritter, Gordon, , Harvard University]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0235' as id
-        , 'Thomas G. Rizzo' as submitter
-        , 'Thomas G. Rizzo' as authors
-        , 'The Determination of the Helicity of $W$ Boson Couplings at the LHC' as title
-        , '29 pages, 11 figures; discussion and reference added, typos corrected' as comments
-        , 'JHEP 0705:037,2007' as journalREF
-        , '10.1088/1126-6708/2007/05/037' as doi
-        , 'SLAC-PUB-12392' as reportNO
-        , 'hep-ph hep-ex' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 16:55:32 GMT}, {version: v2, created: Mon, 9 Apr 2007 16:54:09 GMT}, {version: v3, created: Thu, 3 May 2007 16:39:43 GMT}, {version: v4, created: Mon, 7 May 2007 14:49:56 GMT}]' as versions
-        , '2009-11-13' as updateDATE
-        , '[[Rizzo, Thomas G., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0236' as id
-        , 'Claus Gerhardt' as submitter
-        , 'Claus Gerhardt' as authors
-        , 'Curvature flows in semi-Riemannian manifolds' as title
-        , '48 pages, v4: minor typos corrected, this version will be published' as comments
-        , 'Geometric Flows (Huai-Dong Cao and Shing-Tung Yau, eds.), Surveys
-  in Differential Geometry, vol. XII, International Press of Boston,
-  Somerville, MA, 2008, pp. 113--165' as journalREF
+        SELECT '704.0053' as id
+        , 'Nabil Youssef L' as submitter
+        , 'Nabil L. Youssef, S. H. Abed and A. Soleiman' as authors
+        , 'A Global Approach to the Theory of Special Finsler Manifolds' as title
+        , '32 pages, LaTeX file, Abstract and Introduction modified. Journal-ref
+  removed (it was entered by mistake)' as comments
+        , 'J. Math. Kyoto Univ., 48 (2008), 857-893.' as journalREF
         , 'nan' as doi
         , 'nan' as reportNO
-        , 'math.DG' as categories
+        , 'math.DG gr-qc' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 19:38:59 GMT}, {version: v2, created: Tue, 3 Apr 2007 12:42:52 GMT}, {version: v3, created: Wed, 12 Sep 2007 15:25:31 GMT}, {version: v4, created: Sun, 6 Apr 2008 19:28:10 GMT}]' as versions
-        , '2008-09-16' as updateDATE
-        , '[[Gerhardt, Claus, ]]' as authorsPARSED
+        , '[{version: v1, created: Sat, 31 Mar 2007 20:14:41 GMT}, {version: v2, created: Sun, 8 Apr 2007 09:36:13 GMT}, {version: v3, created: Thu, 6 Sep 2007 22:11:34 GMT}]' as versions
+        , '2009-04-20' as updateDATE
+        , '[[Youssef, Nabil L., ], [Abed, S. H., ], [Soleiman, A., ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0237' as id
-        , 'Christopher W. Mauche' as submitter
-        , 'Christopher W. Mauche, Duane A. Liedahl, Shizuka Akiyama (Lawrence
-  Livermore Natl Lab.), Tomasz Plewa (University of Chicago)' as authors
-        , 'Hydrodynamic and Spectral Simulations of HMXB Winds' as title
-        , '4 pages including 2 color encapsulated postscript figures; LaTeX
-  format, uses ptptex.cls; submitted for inclusion in the proceedings of "The
-  Extreme Universe in the Suzaku Era" conference, to be published in Progress
-  of Theoretical Physics, Supplement.' as comments
-        , 'Prog.Theor.Phys.Suppl.169:196-199,2007' as journalREF
-        , '10.1143/PTPS.169.196' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:14:27 GMT}]' as versions
-        , '2009-06-23' as updateDATE
-        , '[[Mauche, Christopher W., , "Lawrence\n  Livermore Natl Lab."], [Liedahl, Duane A., , "Lawrence\n  Livermore Natl Lab."], [Akiyama, Shizuka, , "Lawrence\n  Livermore Natl Lab."], [Plewa, Tomasz, , University of Chicago]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0238' as id
-        , 'Geoffrey C. Bower' as submitter
-        , 'Geoffrey C. Bower (Berkeley), Alberto Bolatto (Berkeley), Eric Ford
-  (CfA, Florida), Paul Kalas (Berkeley), Jim Ulvestad (NRAO)' as authors
-        , 'Radio Astrometric Detection and Characterization of Extra-Solar Planets:
-  A White Paper Submitted to the NSF ExoPlanet Task Force' as title
+        SELECT '704.0054' as id
+        , 'Alberto Torchinsky' as submitter
+        , 'Wael Abu-Shammala and Alberto Torchinsky' as authors
+        , 'The Hardy-Lorentz Spaces $H^{p,q}(R^n)$' as title
         , 'nan' as comments
-        , 'nan' as journalREF
+        , 'Studia Math. 182 (2007) no. 3, 283-294' as journalREF
         , 'nan' as doi
         , 'nan' as reportNO
-        , 'astro-ph' as categories
+        , 'math.CA math.FA' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:14:48 GMT}]' as versions
-        , '2007-05-23' as updateDATE
-        , '[[Bower, Geoffrey C., , Berkeley], [Bolatto, Alberto, , Berkeley], [Ford, Eric, , CfA, Florida], [Kalas, Paul, , Berkeley], [Ulvestad, Jim, , NRAO]]' as authorsPARSED
+        , '[{version: v1, created: Mon, 2 Apr 2007 18:14:21 GMT}]' as versions
+        , '2013-10-15' as updateDATE
+        , '[[Abu-Shammala, Wael, ], [Torchinsky, Alberto, ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0239' as id
-        , 'J. Dzubiella' as submitter
-        , 'Joachim Dzubiella' as authors
-        , 'Interface dynamics of microscopic cavities in water' as title
-        , 'to appear in J. Chem. Phys' as comments
+        SELECT '704.0055' as id
+        , 'Per Hyldgaard' as submitter
+        , 'Eleni Ziambaras, Jesper Kleis, Elsebeth Schroder, and Per Hyldgaard' as authors
+        , 'Potassium intercalation in graphite: A van der Waals density-functional
+  study' as title
+        , '10 pages, 5 figures' as comments
         , 'nan' as journalREF
-        , '10.1063/1.2734962' as doi
+        , '10.1103/PhysRevB.76.155425' as doi
         , 'nan' as reportNO
-        , 'cond-mat.soft' as categories
+        , 'cond-mat.soft cond-mat.mtrl-sci' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:16:09 GMT}]' as versions
+        , '[{version: v1, created: Sun, 1 Apr 2007 20:46:31 GMT}]' as versions
         , '2009-11-13' as updateDATE
-        , '[[Dzubiella, Joachim, ]]' as authorsPARSED
+        , '[[Ziambaras, Eleni, ], [Kleis, Jesper, ], [Schroder, Elsebeth, ], [Hyldgaard, Per, ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.024' as id
-        , 'Dam Thanh Son' as submitter
-        , 'D. T. Son, A. O. Starinets' as authors
-        , 'Viscosity, Black Holes, and Quantum Field Theory' as title
-        , '23 pages, a review. New proof of the universality of the viscosity
-  entropy ratio, new derivation of Kubos formula; references added and minor
-  typos corrected in version 2' as comments
-        , 'Ann.Rev.Nucl.Part.Sci.57:95-118,2007' as journalREF
-        , '10.1146/annurev.nucl.57.090506.123120' as doi
-        , 'INT PUB 07-02' as reportNO
-        , 'hep-th' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:17:43 GMT}, {version: v2, created: Wed, 11 Jul 2007 17:10:47 GMT}]' as versions
-        , '2008-11-26' as updateDATE
-        , '[[Son, D. T., ], [Starinets, A. O., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0241' as id
-        , 'Jim Hague' as submitter
-        , 'J.P.Hague' as authors
-        , 'Superconducting states of the quasi-2D Holstein model: Effects of vertex
-  and non-local corrections' as title
-        , 'Reprint to improve access. 14 pages. 10 figures.' as comments
-        , 'J. Phys.: Condens. Matter vol. 17 (2005) 5663-5676' as journalREF
-        , '10.1088/0953-8984/17/37/005' as doi
+        SELECT '704.0056' as id
+        , 'Franz Saija' as submitter
+        , 'Santi Prestipino and Franz Saija' as authors
+        , 'Phase diagram of Gaussian-core nematics' as title
+        , '15 pages, 1 table, 10 figures, submitted on J. Chem. Phys.' as comments
+        , 'J. Chem. Phys. 126, 194902 (2007)' as journalREF
+        , '10.1063/1.2737041' as doi
         , 'nan' as reportNO
-        , 'cond-mat.supr-con' as categories
+        , 'cond-mat.soft cond-mat.mtrl-sci' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:35:04 GMT}]' as versions
-        , '2015-05-13' as updateDATE
-        , '[[Hague, J. P., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0242' as id
-        , 'Vincent L. Fish' as submitter
-        , 'Vincent L. Fish (NRAO)' as authors
-        , 'Masers and star formation' as title
-        , '10 pages, iaus.cls, to appear in IAU Symp. 242 proceedings
-  (Astrophysical masers and their environments)' as comments
-        , 'nan' as journalREF
-        , '10.1017/S1743921307012604' as doi
-        , 'nan' as reportNO
-        , 'astro-ph' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:26:49 GMT}]' as versions
+        , '[{version: v1, created: Sat, 31 Mar 2007 21:51:45 GMT}]' as versions
         , '2009-11-13' as updateDATE
-        , '[[Fish, Vincent L., , NRAO]]' as authorsPARSED
+        , '[[Prestipino, Santi, ], [Saija, Franz, ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0243' as id
-        , 'Johannes Bauer' as submitter
-        , 'J. Bauer and A.C. Hewson' as authors
-        , 'Renormalized quasiparticles in antiferromagnetic states of the Hubbard
-  model' as title
-        , '15 pages, 17 figures; some minor changes and additional figure' as comments
-        , 'Eur. Phys. J. B 57 (2007), 235.' as journalREF
-        , '10.1140/epjb/e2007-00175-6' as doi
+        SELECT '704.0057' as id
+        , 'Philipp Werner' as submitter
+        , 'Philipp Werner and Andrew J. Millis' as authors
+        , 'High-spin to low-spin and orbital polarization transitions in
+  multiorbital Mott systems' as title
+        , 'Published version' as comments
+        , 'Phys. Rev. Lett. 99, 126405 (2007)' as journalREF
+        , '10.1103/PhysRevLett.99.126405' as doi
         , 'nan' as reportNO
         , 'cond-mat.str-el' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:27:29 GMT}, {version: v2, created: Fri, 22 Jun 2007 18:11:26 GMT}]' as versions
+        , '[{version: v1, created: Sun, 1 Apr 2007 19:58:35 GMT}, {version: v2, created: Wed, 19 Sep 2007 18:33:51 GMT}]' as versions
         , '2009-11-13' as updateDATE
-        , '[[Bauer, J., ], [Hewson, A. C., ]]' as authorsPARSED
+        , '[[Werner, Philipp, ], [Millis, Andrew J., ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0244' as id
-        , 'Sangeeta Sharma' as submitter
-        , 'S. Sharma (1,2), S. Pittalis (2), S. Kurth (2), S. Shallcross (3), J.
-  K. Dewhurst (4) and E. K. U. Gross (2)' as authors
-        , 'Comparison of exact-exchange calculations for solids in
-  current-spin-density- and spin-density-functional theory' as title
-        , '4 pages, 1 fig, 2 tables' as comments
+        SELECT '704.0058' as id
+        , 'Frank Tipler' as submitter
+        , 'Frank J. Tipler' as authors
+        , 'Intelligent Life in Cosmology' as title
+        , 'nan' as comments
+        , 'International Journal of Astrobiology 2 (2003) 141-148' as journalREF
+        , '10.1017/S1473550403001526' as doi
+        , 'nan' as reportNO
+        , 'physics.pop-ph' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sat, 31 Mar 2007 21:59:26 GMT}]' as versions
+        , '2015-05-13' as updateDATE
+        , '[[Tipler, Frank J., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0059' as id
+        , 'Thomas Beatty' as submitter
+        , 'T. G. Beatty, J. M. Fernandez, D. W. Latham, G. A. Bakos, G. Kovacs,
+  R. W. Noyes, R. P. Stefanik, G. Torres, M. E. Everett, C. W. Hergenrother' as authors
+        , 'The Mass and Radius of the Unseen M-Dwarf Companion in the Single-Lined
+  Eclipsing Binary HAT-TR-205-013' as title
+        , '18 pages, 9 tables and 6 figures; accepted by ApJ. Added a reference
+  and corrected a typo' as comments
+        , 'Astrophys.J.663:573-582,2007' as journalREF
+        , '10.1086/518413' as doi
+        , 'nan' as reportNO
+        , 'astro-ph' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sat, 31 Mar 2007 22:16:50 GMT}, {version: v2, created: Mon, 9 Apr 2007 15:50:24 GMT}]' as versions
+        , '2009-06-23' as updateDATE
+        , '[[Beatty, T. G., ], [Fernandez, J. M., ], [Latham, D. W., ], [Bakos, G. A., ], [Kovacs, G., ], [Noyes, R. W., ], [Stefanik, R. P., ], [Torres, G., ], [Everett, M. E., ], [Hergenrother, C. W., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.006' as id
+        , 'Carlos Bertulani' as submitter
+        , 'C.A. Bertulani, G. Cardella, M. De Napoli, G. Raciti, and E. Rapisarda' as authors
+        , 'Coulomb excitation of unstable nuclei at intermediate energies' as title
+        , '12 pages, 2 figures, accepted for publication in Phys. Lett. B' as comments
+        , 'Phys.Lett.B650:233-238,2007' as journalREF
+        , '10.1016/j.physletb.2007.05.029' as doi
+        , 'nan' as reportNO
+        , 'nucl-th' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sat, 31 Mar 2007 22:24:53 GMT}, {version: v2, created: Mon, 21 May 2007 16:23:27 GMT}]' as versions
+        , '2008-11-26' as updateDATE
+        , '[[Bertulani, C. A., ], [Cardella, G., ], [De Napoli, M., ], [Raciti, G., ], [Rapisarda, E., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0061' as id
+        , 'Boris Rubin' as submitter
+        , 'Boris Rubin' as authors
+        , 'Intersection Bodies and Generalized Cosine Transforms' as title
+        , '38 pages' as comments
         , 'nan' as journalREF
-        , '10.1103/PhysRevB.76.100401' as doi
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.FA' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sat, 31 Mar 2007 22:45:05 GMT}, {version: v2, created: Thu, 3 May 2007 18:03:34 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Rubin, Boris, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0062' as id
+        , 'Tom\a\v{s} Vina\v{r}' as submitter
+        , 'Rastislav \v{S}r\amek, Bro\v{n}a Brejov\a, Tom\a\v{s} Vina\v{r}' as authors
+        , 'On-line Viterbi Algorithm and Its Relationship to Random Walks' as title
+        , 'nan' as comments
+        , 'Algorithms in Bioinformatics: 7th International Workshop (WABI),
+  4645 volume of Lecture Notes in Computer Science, pp. 240-251, Philadelphia,
+  PA, USA, September 2007. Springer' as journalREF
+        , '10.1007/978-3-540-74126-8_23' as doi
+        , 'nan' as reportNO
+        , 'cs.DS' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sat, 31 Mar 2007 23:52:33 GMT}]' as versions
+        , '2010-01-25' as updateDATE
+        , '[[Šrámek, Rastislav, ], [Brejová, Broňa, ], [Vinař, Tomáš, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0063' as id
+        , 'Somnath Choudhury' as submitter
+        , 'Somnath Choudhury' as authors
+        , 'Experimental efforts in search of 76Ge Neutrinoless Double Beta Decay' as title
+        , 'nan' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'hep-ph' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 00:15:54 GMT}, {version: v2, created: Tue, 3 Apr 2007 23:51:30 GMT}, {version: v3, created: Fri, 27 Apr 2007 17:42:41 GMT}, {version: v4, created: Wed, 12 Mar 2008 16:14:26 GMT}]' as versions
+        , '2008-03-12' as updateDATE
+        , '[[Choudhury, Somnath, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0064' as id
+        , 'Rudra Prakash Malik' as submitter
+        , 'R. P. Malik (Bhu)' as authors
+        , 'Nilpotent symmetry invariance in the superfield formulation: the
+  (non-)Abelian 1-form gauge theories' as title
+        , 'LaTeX file, 19 pages, journal reference' as comments
+        , 'Int.J.Mod.Phys.A23:3685-3705,2008' as journalREF
+        , '10.1142/S0217751X08041591' as doi
+        , 'nan' as reportNO
+        , 'hep-th' as categories
+        , 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 13:32:15 GMT}, {version: v2, created: Thu, 3 May 2007 16:35:49 GMT}, {version: v3, created: Thu, 6 Dec 2007 13:31:19 GMT}, {version: v4, created: Thu, 5 Jun 2008 11:21:43 GMT}, {version: v5, created: Fri, 24 Oct 2008 12:23:58 GMT}]' as versions
+        , '2008-11-26' as updateDATE
+        , '[[Malik, R. P., , Bhu]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0065' as id
+        , 'Alexander Molev' as submitter
+        , 'A. I. Molev' as authors
+        , 'Littlewood-Richardson polynomials' as title
+        , '21 pages, reference to independent work of V. Kreiman was added' as comments
+        , 'J. Algebra 321 (2009), 3450-3468.' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.AG math.CO' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Mon, 2 Apr 2007 01:14:48 GMT}, {version: v2, created: Mon, 16 Apr 2007 11:41:24 GMT}, {version: v3, created: Mon, 16 Jul 2007 10:40:52 GMT}]' as versions
+        , '2009-06-03' as updateDATE
+        , '[[Molev, A. I., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0066' as id
+        , 'Bozhidar Zakhariev Iliev' as submitter
+        , 'Bozhidar Z. Iliev (Institute for Nuclear Research and Nuclear Energy,
+  Bulgarian Academy of Sciences, Sofia, Bulgaria)' as authors
+        , 'Lagrangian quantum field theory in momentum picture. IV. Commutation
+  relations for free fields' as title
+        , '60 LaTeX pages. The packages AMS-LaTeX and amsfonts are required.
+  This paper is a continuation of the e-print E-prints No. hep-th/0402006, No.
+  hep-th/0405008 and No. hep-th/0505007. For related papers, visit the
+  "publication" pages at http://theo.inrne.bas.bg/~bozho/' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'hep-th' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 06:22:38 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Iliev, Bozhidar Z., , Institute for Nuclear Research and Nuclear Energy,\n  Bulgarian Academy of Sciences, Sofia, Bulgaria]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0067' as id
+        , 'Lawrence Friedman' as submitter
+        , 'Lawrence H. Friedman' as authors
+        , 'Order of Epitaxial Self-Assembled Quantum Dots: Linear Analysis' as title
+        , 'nan' as comments
+        , 'L. H. Friedman. Order of epitaxial self-assembled quantum dots:
+  Linear analysis. Journal of Nanophotonics, 1(1):013513, 2007.' as journalREF
+        , '10.1117/1.2753144' as doi
         , 'nan' as reportNO
         , 'cond-mat.mtrl-sci' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:31:51 GMT}, {version: v2, created: Mon, 4 Jun 2007 09:24:57 GMT}]' as versions
-        , '2009-11-13' as updateDATE
-        , '[[Sharma, S., ], [Pittalis, S., ], [Kurth, S., ], [Shallcross, S., ], [Dewhurst, J. K., ], [Gross, E. K. U., ]]' as authorsPARSED
+        , '[{version: v1, created: Sun, 1 Apr 2007 05:30:59 GMT}]' as versions
+        , '2007-06-09' as updateDATE
+        , '[[Friedman, Lawrence H., ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0245' as id
-        , 'Konstantinos Zoubos' as submitter
-        , 'Andreas Brandhuber, Bill Spence, Gabriele Travaglini, Konstantinos
-  Zoubos' as authors
-        , 'One-loop MHV Rules and Pure Yang-Mills' as title
-        , '40 pages. v2: Minor corrections, references added. Published version' as comments
-        , 'JHEP0707:002,2007' as journalREF
-        , '10.1088/1126-6708/2007/07/002' as doi
-        , 'QMUL-PH-07-09' as reportNO
-        , 'hep-th hep-ph' as categories
+        SELECT '704.0068' as id
+        , 'Branko Malesevic' as submitter
+        , 'Branko J. Malesevic' as authors
+        , 'A Note About the {Ki(z)} Functions' as title
+        , 'Accepted in Rocky Mountain Journal of mathematics' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.NT math.CV' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 18:14:10 GMT}, {version: v2, created: Fri, 6 Jul 2007 17:00:23 GMT}]' as versions
-        , '2008-11-26' as updateDATE
-        , '[[Brandhuber, Andreas, ], [Spence, Bill, ], [Travaglini, Gabriele, ], [Zoubos, Konstantinos, ]]' as authorsPARSED
+        , '[{version: v1, created: Sun, 1 Apr 2007 05:42:28 GMT}, {version: v2, created: Fri, 25 May 2007 17:07:20 GMT}]' as versions
+        , '2007-06-13' as updateDATE
+        , '[[Malesevic, Branko J., ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0246' as id
-        , 'Natalya A. Zimbovskaya' as submitter
-        , 'Natalya A. Zimbovskaya' as authors
-        , 'Fermi-liquid effects in the transresistivity in quantum Hall double
-  layers near $\nu= 1/2 $' as title
-        , '5 pages, 2 figures' as comments
-        , 'JETP 98,1231 (2004)' as journalREF
-        , '10.1134/1.1777636' as doi
+        SELECT '704.0069' as id
+        , 'John Robertson' as submitter
+        , 'John W. Robertson' as authors
+        , 'Dynamical Objects for Cohomologically Expanding Maps' as title
+        , '38 pages' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.DS' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 06:48:47 GMT}]' as versions
+        , '2010-01-08' as updateDATE
+        , '[[Robertson, John W., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.007' as id
+        , 'Yanzhang He' as submitter
+        , 'He Yanzhang and Bao Chengguang' as authors
+        , 'Coincidence of the oscillations in the dipole transition and in the
+  persistent current of narrow quantum rings with two electrons' as title
+        , '5 pages, 4 figures, submitted' as comments
+        , 'J. Phys.: Condens. Matter 20 (2008) 055214' as journalREF
+        , 'nan' as doi
         , 'nan' as reportNO
         , 'cond-mat.mes-hall' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:36:59 GMT}]' as versions
-        , '2007-05-23' as updateDATE
-        , '[[Zimbovskaya, Natalya A., ]]' as authorsPARSED
+        , '[{version: v1, created: Sun, 1 Apr 2007 06:49:32 GMT}]' as versions
+        , '2008-01-19' as updateDATE
+        , '[[Yanzhang, He, ], [Chengguang, Bao, ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0247' as id
-        , 'Diederik Roest' as submitter
-        , 'S. L. Cacciatori, M. M. Caldarelli, D. Klemm, D. S. Mansi, D. Roest' as authors
-        , 'Geometry of four-dimensional Killing spinors' as title
-        , '70 pages, JHEP3. v2: new explicit solutions for G_0 = 0 and reference
-  added' as comments
-        , 'JHEP0707:046,2007' as journalREF
-        , '10.1088/1126-6708/2007/07/046' as doi
-        , 'nan' as reportNO
-        , 'hep-th gr-qc' as categories
-        , 'nan' as license
-        , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:50:35 GMT}, {version: v2, created: Tue, 15 May 2007 09:35:40 GMT}]' as versions
-        , '2008-11-26' as updateDATE
-        , '[[Cacciatori, S. L., ], [Caldarelli, M. M., ], [Klemm, D., ], [Mansi, D. S., ], [Roest, D., ]]' as authorsPARSED
-        UNION ALL
-
-        SELECT '704.0248' as id
-        , 'Ricardo Weder' as submitter
-        , 'Ricardo Weder' as authors
-        , 'A Rigorous Time-Domain Analysis of Full--Wave Electromagnetic Cloaking
-  (Invisibility)' as title
-        , 'The presentation of the results has been simplified. Comments and
-  references have been added' as comments
+        SELECT '704.0071' as id
+        , 'Dietrich Stauffer' as submitter
+        , 'S. Wichmann and E.W. Holman' as authors
+        , 'Pairwise comparisons of typological profiles (of languages)' as title
+        , 'Linguistics, 10 pages including figure and tables,' as comments
         , 'nan' as journalREF
         , 'nan' as doi
         , 'nan' as reportNO
-        , 'physics.optics math-ph math.MP' as categories
+        , 'physics.soc-ph' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:42:00 GMT}, {version: v2, created: Sat, 7 Apr 2007 02:30:18 GMT}, {version: v3, created: Mon, 30 Apr 2007 15:40:38 GMT}, {version: v4, created: Mon, 4 Feb 2008 17:39:52 GMT}]' as versions
-        , '2008-02-04' as updateDATE
-        , '[[Weder, Ricardo, ]]' as authorsPARSED
+        , '[{version: v1, created: Sun, 1 Apr 2007 07:36:16 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Wichmann, S., ], [Holman, E. W., ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.0249' as id
-        , 'Michael Potthoff' as submitter
-        , 'Jutta Ortloff, Matthias Balzer, Michael Potthoff' as authors
-        , 'Non-perturbative conserving approximations and Luttingers sum rule' as title
-        , '13 pages, 10 figures, revised version with slightly extended
-  discussion, accepted by EPJB' as comments
+        SELECT '704.0072' as id
+        , 'Yurii Kosovtsov' as submitter
+        , 'Yu.N. Kosovtsov' as authors
+        , 'The decomposition method and Maple procedure for finding first integrals
+  of nonlinear PDEs of any order with any number of independent variables' as title
+        , '13 pages; Submitted to the 10th International Workshop in Computer
+  Algebra in Scientific Computing, CASC 2007' as comments
         , 'nan' as journalREF
-        , '10.1140/epjb/e2007-00203-7' as doi
+        , 'nan' as doi
         , 'nan' as reportNO
-        , 'cond-mat.str-el' as categories
+        , 'math-ph math.MP' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:48:38 GMT}, {version: v2, created: Wed, 4 Jul 2007 08:23:10 GMT}]' as versions
-        , '2009-11-13' as updateDATE
-        , '[[Ortloff, Jutta, ], [Balzer, Matthias, ], [Potthoff, Michael, ]]' as authorsPARSED
+        , '[{version: v1, created: Sun, 1 Apr 2007 07:58:53 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Kosovtsov, Yu. N., ]]' as authorsPARSED
         UNION ALL
 
-        SELECT '704.025' as id
-        , 'Vladimir Dobrosavljevic' as submitter
-        , 'S. Pankov and V. Dobrosavljevic' as authors
-        , '2D-MIT as self-doping of a Wigner-Mott insulator' as title
-        , 'Contribution to the Proceedings of SCES2007; 2 pages, 1 figure.' as comments
-        , 'Physica B 403, 1440 (2008)' as journalREF
-        , '10.1016/j.physb.2007.10.365' as doi
+        SELECT '704.0073' as id
+        , 'Osamu Fujino' as submitter
+        , 'Osamu Fujino' as authors
+        , 'A transcendental approach to Koll\ars injectivity theorem' as title
+        , '22 pages; a minor revision of the preprint circulated in January
+  2006, v2: minor modifications, v3: final version, to appear in Osaka J. Math' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
         , 'nan' as reportNO
-        , 'cond-mat.str-el cond-mat.dis-nn' as categories
+        , 'math.AG' as categories
+        , 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 08:40:19 GMT}, {version: v2, created: Tue, 4 Jan 2011 00:41:06 GMT}, {version: v3, created: Mon, 5 Mar 2012 01:44:29 GMT}]' as versions
+        , '2012-03-06' as updateDATE
+        , '[[Fujino, Osamu, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0074' as id
+        , 'Jawad Y. Abuhlail' as submitter
+        , 'J. Y. Abuhlail, S. K. Nauman' as authors
+        , 'Injective Morita contexts (revisited)' as title
+        , 'nan' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.RA' as categories
         , 'nan' as license
         , 'nan' as abstract
-        , '[{version: v1, created: Mon, 2 Apr 2007 17:53:07 GMT}]' as versions
-        , '2008-03-07' as updateDATE
-        , '[[Pankov, S., ], [Dobrosavljevic, V., ]]' as authorsPARSED
+        , '[{version: v1, created: Sun, 1 Apr 2007 09:34:47 GMT}, {version: v2, created: Tue, 21 Aug 2007 21:54:33 GMT}]' as versions
+        , '2007-08-22' as updateDATE
+        , '[[Abuhlail, J. Y., ], [Nauman, S. K., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0075' as id
+        , 'Xiang Liu' as submitter
+        , 'Chong Chen, Xiao-Lin Chen, Xiang Liu, Wei-Zhen Deng and Shi-Lin Zhu' as authors
+        , 'Strong decays of charmed baryons' as title
+        , '13 pages, 9 figures, 9 tables. Some descriptions changed. Published
+  version in PRD' as comments
+        , 'Phys.Rev.D75:094017,2007' as journalREF
+        , '10.1103/PhysRevD.75.094017' as doi
+        , 'nan' as reportNO
+        , 'hep-ph hep-ex nucl-ex' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 09:45:55 GMT}, {version: v2, created: Wed, 4 Apr 2007 12:24:08 GMT}, {version: v3, created: Fri, 20 Apr 2007 16:20:10 GMT}]' as versions
+        , '2008-11-26' as updateDATE
+        , '[[Chen, Chong, ], [Chen, Xiao-Lin, ], [Liu, Xiang, ], [Deng, Wei-Zhen, ], [Zhu, Shi-Lin, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0076' as id
+        , 'Michael Gronau' as submitter
+        , 'Michael Gronau' as authors
+        , 'CP violation in beauty decays' as title
+        , '27 pages, minor corrections, to be published in Int. J. Mod. Phys. A' as comments
+        , 'Int.J.Mod.Phys.A22:1953-1982,2007' as journalREF
+        , '10.1142/S0217751X07036579' as doi
+        , 'nan' as reportNO
+        , 'hep-ph hep-ex' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 17:33:15 GMT}, {version: v2, created: Mon, 16 Apr 2007 13:15:55 GMT}]' as versions
+        , '2008-11-26' as updateDATE
+        , '[[Gronau, Michael, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0077' as id
+        , 'Afsar Abbas' as submitter
+        , 'Afsar Abbas' as authors
+        , 'Universal Forces and the Dark Energy Problem' as title
+        , '9 pages. no figures' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'physics.gen-ph' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 09:49:01 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Abbas, Afsar, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0078' as id
+        , 'Raul Vera' as submitter
+        , 'Marc Mars, Filipe C. Mena, Raul Vera' as authors
+        , 'Linear perturbations of matched spacetimes: the gauge problem and
+  background symmetries' as title
+        , '18 pages, plain LaTeX file' as comments
+        , 'Class.Quant.Grav.24:3673-3690,2007' as journalREF
+        , '10.1088/0264-9381/24/14/008' as doi
+        , 'nan' as reportNO
+        , 'gr-qc' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 10:08:25 GMT}]' as versions
+        , '2008-11-26' as updateDATE
+        , '[[Mars, Marc, ], [Mena, Filipe C., ], [Vera, Raul, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0079' as id
+        , 'Stephen C. Power' as submitter
+        , 'Stephen C. Power (Lancaster University), Baruch Solel (Technion)' as authors
+        , 'Operator algebras associated with unitary commutation relations' as title
+        , '38 pages' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.OA' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Mon, 2 Apr 2007 15:04:48 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Power, Stephen C., , Lancaster University], [Solel, Baruch, , Technion]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.008' as id
+        , 'Dean McLaughlin' as submitter
+        , 'Dean E. McLaughlin and S. Michael Fall' as authors
+        , 'Shaping the Globular Cluster Mass Function by Stellar-Dynamical
+  Evaporation' as title
+        , 'Final version, matching the published paper' as comments
+        , 'Astrophys.J.679:1272-1287,2008' as journalREF
+        , '10.1086/533485' as doi
+        , 'nan' as reportNO
+        , 'astro-ph' as categories
+        , 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 10:20:37 GMT}, {version: v2, created: Mon, 10 Sep 2007 16:43:49 GMT}, {version: v3, created: Thu, 24 Jan 2008 17:02:00 GMT}, {version: v4, created: Wed, 11 Jun 2008 17:15:32 GMT}]' as versions
+        , '2010-11-11' as updateDATE
+        , '[[McLaughlin, Dean E., ], [Fall, S. Michael, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0081' as id
+        , 'Valeriy Tolstoy' as submitter
+        , 'V.N. Tolstoy (INP, Moscow State University)' as authors
+        , 'Quantum Deformations of Relativistic Symmetries' as title
+        , '10 pages. Invited talk at the XXII Max Born Symposium "Quantum, Super
+  and Twistors", September 27-29, 2006, Wroclaw (Poland), in honour of Jerzy
+  Lukierski.' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.QA hep-th math-ph math.MP math.RT' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Mon, 2 Apr 2007 13:06:59 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Tolstoy, V. N., , INP, Moscow State University]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0082' as id
+        , 'Tetsuo Kurosaki' as submitter
+        , 'Tetsuo Kurosaki, Miki Wadati' as authors
+        , 'Matter-Wave Bright Solitons with a Finite Background in Spinor
+  Bose-Einstein Condensates' as title
+        , '18 pages, 4 figures, LaTeX' as comments
+        , 'nan' as journalREF
+        , '10.1143/JPSJ.76.084002' as doi
+        , 'nan' as reportNO
+        , 'cond-mat.other cond-mat.stat-mech' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 12:26:50 GMT}]' as versions
+        , '2009-11-13' as updateDATE
+        , '[[Kurosaki, Tetsuo, ], [Wadati, Miki, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0083' as id
+        , 'Andrei Barvinsky' as submitter
+        , 'A.O.Barvinsky' as authors
+        , 'Why there is something rather than nothing (out of everything)?' as title
+        , '4 pages, RevTex, several references added and minor changes done' as comments
+        , 'Phys.Rev.Lett.99:071301,2007' as journalREF
+        , '10.1103/PhysRevLett.99.071301' as doi
+        , 'nan' as reportNO
+        , 'hep-th' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 12:38:03 GMT}, {version: v2, created: Mon, 9 Apr 2007 19:39:24 GMT}]' as versions
+        , '2008-11-26' as updateDATE
+        , '[[Barvinsky, A. O., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0084' as id
+        , 'Baruch Meerson' as submitter
+        , 'Itzhak Fouxon, Baruch Meerson, Michael Assaf, Eli Livne' as authors
+        , 'Formation of density singularities in ideal hydrodynamics of freely
+  cooling inelastic gases: a family of exact solutions' as title
+        , '19 pages, 7 figures' as comments
+        , 'nan' as journalREF
+        , '10.1063/1.2767361' as doi
+        , 'nan' as reportNO
+        , 'cond-mat.soft nlin.PS physics.flu-dyn' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 12:54:14 GMT}, {version: v2, created: Wed, 9 May 2007 07:00:42 GMT}]' as versions
+        , '2009-11-13' as updateDATE
+        , '[[Fouxon, Itzhak, ], [Meerson, Baruch, ], [Assaf, Michael, ], [Livne, Eli, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0085' as id
+        , 'Partha Mukhopadhyay' as submitter
+        , 'Partha Mukhopadhyay' as authors
+        , 'A Universality in PP-Waves' as title
+        , 'LaTeX file, 43 pages, one reference added, minor changes made' as comments
+        , 'JHEP 0706:061,2007' as journalREF
+        , '10.1088/1126-6708/2007/06/061' as doi
+        , 'DAMTP-2007-30' as reportNO
+        , 'hep-th' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 12:55:02 GMT}, {version: v2, created: Mon, 9 Apr 2007 12:06:19 GMT}]' as versions
+        , '2009-11-13' as updateDATE
+        , '[[Mukhopadhyay, Partha, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0086' as id
+        , 'Vladislav Vysotsky' as submitter
+        , 'Vladislav V. Vysotsky' as authors
+        , 'Clustering in a stochastic model of one-dimensional gas' as title
+        , 'Published in at http://dx.doi.org/10.1214/07-AAP481 the Annals of
+  Applied Probability (http://www.imstat.org/aap/) by the Institute of
+  Mathematical Statistics (http://www.imstat.org)' as comments
+        , 'Annals of Applied Probability 2008, Vol. 18, No. 3, 1026-1058' as journalREF
+        , '10.1214/07-AAP481' as doi
+        , 'IMS-AAP-AAP481' as reportNO
+        , 'math.PR' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 13:10:43 GMT}, {version: v2, created: Tue, 17 Jun 2008 06:56:43 GMT}]' as versions
+        , '2008-06-17' as updateDATE
+        , '[[Vysotsky, Vladislav V., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0087' as id
+        , 'Tuyen Truong' as submitter
+        , 'Duong Minh Duc and Truong Trung Tuyen' as authors
+        , 'Approximate solutions to the Dirichlet problem for harmonic maps between
+  hyperbolic spaces' as title
+        , 'nan' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.DG' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 13:44:50 GMT}, {version: v2, created: Wed, 23 May 2007 12:49:52 GMT}]' as versions
+        , '2007-06-13' as updateDATE
+        , '[[Duc, Duong Minh, ], [Tuyen, Truong Trung, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0088' as id
+        , 'Nikolay Tcherniega V.' as submitter
+        , 'N.V.Tcherniega' as authors
+        , 'Some new experimental photonic flame effect features' as title
+        , '9 pages, 10 figures, accepted for publication in JRLR' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'physics.optics' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 14:10:51 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Tcherniega, N. V., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0089' as id
+        , 'Igor Grabec' as submitter
+        , 'I. Grabec' as authors
+        , 'A general approach to statistical modeling of physical laws:
+  nonparametric regression' as title
+        , '17 pages, 8 eps figures, uses revtex4.cls' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'physics.data-an physics.gen-ph' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 14:29:57 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Grabec, I., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.009' as id
+        , 'Lester Ingber' as submitter
+        , 'Lester Ingber' as authors
+        , 'Real Options for Project Schedules (ROPS)' as title
+        , 'nan' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'Report 2007:ROPS' as reportNO
+        , 'cs.CE cond-mat.stat-mech cs.MS cs.NA physics.data-an' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 14:35:40 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Ingber, Lester, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0091' as id
+        , 'Ashot Minasyan' as submitter
+        , 'Ashot Minasyan' as authors
+        , 'Groups with finitely many conjugacy classes and their automorphisms' as title
+        , '30 pages, 2 figures. Version 2: corrected several misprints and added
+  new Lemma 6.4' as comments
+        , 'Comm. Math. Helv. 84 (2009), No. 2, pp. 259--296.' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.GR' as categories
+        , 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 15:17:36 GMT}, {version: v2, created: Mon, 18 Aug 2008 12:20:58 GMT}]' as versions
+        , '2009-07-07' as updateDATE
+        , '[[Minasyan, Ashot, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0092' as id
+        , 'Christof Gattringer' as submitter
+        , 'Christof Gattringer and Ludovit Liptak' as authors
+        , 'Energy density for chiral lattice fermions with chemical potential' as title
+        , 'Minor changes in the text. Version to appear in Phys. Rev. D' as comments
+        , 'Phys.Rev.D76:054502,2007' as journalREF
+        , '10.1103/PhysRevD.76.054502' as doi
+        , 'nan' as reportNO
+        , 'hep-lat hep-ph' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 16:20:10 GMT}, {version: v2, created: Thu, 26 Jul 2007 10:50:05 GMT}]' as versions
+        , '2008-11-26' as updateDATE
+        , '[[Gattringer, Christof, ], [Liptak, Ludovit, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0093' as id
+        , 'Wei-Sheng Lee' as submitter
+        , 'W.S. Lee, S. Johnston, T.P. Devereaux, and Z.-X. Shen' as authors
+        , 'Aspects of Electron-Phonon Self-Energy Revealed from Angle-Resolved
+  Photoemission Spectroscopy' as title
+        , '8 pages, 4 figures. Accepted by Phys. Rev. B' as comments
+        , 'Phys. Rev. B 75, 195116 (2007)' as journalREF
+        , '10.1103/PhysRevB.75.195116' as doi
+        , 'nan' as reportNO
+        , 'cond-mat.supr-con cond-mat.str-el' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 16:47:32 GMT}]' as versions
+        , '2008-01-16' as updateDATE
+        , '[[Lee, W. S., ], [Johnston, S., ], [Devereaux, T. P., ], [Shen, Z. -X., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0094' as id
+        , 'HongSheng Zhao' as submitter
+        , 'HongSheng Zhao (SUPA, St Andrews)' as authors
+        , 'Timing and Lensing of the Colliding Bullet Clusters: barely enough time
+  and gravity to accelerate the bullet' as title
+        , '5-pages, Physical Review D, rapid publication submitted' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'astro-ph' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Mon, 2 Apr 2007 18:30:16 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Zhao, HongSheng, , SUPA, St Andrews]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0095' as id
+        , 'Emmanuel Breuillard F.' as submitter
+        , 'Emmanuel Breuillard' as authors
+        , 'Geometry of Locally Compact Groups of Polynomial Growth and Shape of
+  Large Balls' as title
+        , 'slightly expanded and polished new version, 57 pages, 2 figures' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.GR math.DG' as categories
+        , 'http://arxiv.org/licenses/nonexclusive-distrib/1.0/' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 16:59:04 GMT}, {version: v2, created: Tue, 10 Apr 2012 05:13:40 GMT}]' as versions
+        , '2012-04-11' as updateDATE
+        , '[[Breuillard, Emmanuel, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0096' as id
+        , 'M. C. Nucci' as submitter
+        , 'M.C. Nucci and P.G.L. Leach' as authors
+        , 'Much ado about 248' as title
+        , '5 pages' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'nlin.SI' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 17:28:15 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Nucci, M. C., ], [Leach, P. G. L., ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0097' as id
+        , 'Yasuyuki Kawahigashi' as submitter
+        , 'Yasuyuki Kawahigashi' as authors
+        , 'Conformal Field Theory and Operator Algebras' as title
+        , 'For the Proceedings of ICMP (Rio de Janeiro, 2006).' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math-ph math.MP math.OA' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 18:02:55 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Kawahigashi, Yasuyuki, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0098' as id
+        , 'Jack Raymond' as submitter
+        , 'Jack Raymond, David Saad' as authors
+        , 'Sparsely-spread CDMA - a statistical mechanics based analysis' as title
+        , '23 pages, 5 figures, figure 1 amended since published version' as comments
+        , 'J. Phys. A: Math. Theor. 40 No 41 (12 October 2007) 12315-12333' as journalREF
+        , '10.1088/1751-8113/40/41/004' as doi
+        , 'nan' as reportNO
+        , 'cs.IT math.IT' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 18:27:26 GMT}, {version: v2, created: Fri, 27 Apr 2007 12:39:14 GMT}, {version: v3, created: Wed, 1 Aug 2007 19:10:18 GMT}, {version: v4, created: Sun, 7 Oct 2007 16:50:39 GMT}, {version: v5, created: Wed, 30 Apr 2008 15:36:55 GMT}]' as versions
+        , '2009-11-13' as updateDATE
+        , '[[Raymond, Jack, ], [Saad, David, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.0099' as id
+        , 'Koenraad M. R. Audenaert' as submitter
+        , 'Koenraad M.R. Audenaert and Jaspal Singh Aujla' as authors
+        , 'On Andos inequalities for convex and concave functions' as title
+        , '18 pages' as comments
+        , 'nan' as journalREF
+        , 'nan' as doi
+        , 'nan' as reportNO
+        , 'math.FA' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Sun, 1 Apr 2007 18:14:32 GMT}]' as versions
+        , '2007-05-23' as updateDATE
+        , '[[Audenaert, Koenraad M. R., ], [Aujla, Jaspal Singh, ]]' as authorsPARSED
+        UNION ALL
+
+        SELECT '704.01' as id
+        , 'Daisuke Ida' as submitter
+        , 'Daisuke Ida and Masaru Siino' as authors
+        , 'Topology Change of Black Holes' as title
+        , '13 pages, 12 figures' as comments
+        , 'Prog.Theor.Phys.118:715-727,2007' as journalREF
+        , '10.1143/PTP.118.715' as doi
+        , 'nan' as reportNO
+        , 'gr-qc' as categories
+        , 'nan' as license
+        , 'nan' as abstract
+        , '[{version: v1, created: Mon, 2 Apr 2007 10:11:53 GMT}, {version: v2, created: Mon, 2 Apr 2007 22:21:01 GMT}, {version: v3, created: Wed, 31 Oct 2007 15:14:41 GMT}]' as versions
+        , '2008-11-26' as updateDATE
+        , '[[Ida, Daisuke, ], [Siino, Masaru, ]]' as authorsPARSED
         

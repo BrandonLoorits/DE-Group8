@@ -56,7 +56,7 @@ x-airflow-common:
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: ''
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
-    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'true'
     AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
   volumes:
@@ -90,26 +90,7 @@ services:
     restart: always
     ports:
       - 5432:5432
-  neo:
-    image: neo4j:3.5.31-community
-    ports:
-        - 11003:11003
-        - 11002:11002
-    restart: always
-    environment:
-      # - NEO4J_AUTH='neo4j/engmohamed'
-      - NEO4J_AUTH=none
-    volumes:
-      - ./neo4j/data:/data
-      - ./neo4j/conf:/conf
-  notebook:
-    build: notebook/
-    ports:
-      - 8888:8888
-    volumes:
-       - ./:/home/jovyan/work/data
-    environment:
-      - GRANT_SUDO=yes
+
   redis:
     image: redis:7.0.4
     expose:
@@ -307,6 +288,25 @@ services:
             - ./mysql.cnf:/etc/mysql/mysql.cnf 
         ports:
             - "3306:3306"
-
+  neo:
+    image: neo4j:3.5.31-community
+    ports:
+        - 11003:11003
+        - 11002:11002
+    restart: always
+    environment:
+      # - NEO4J_AUTH='neo4j/engmohamed'
+      - NEO4J_AUTH=none
+    volumes:
+      - ./neo4j/data:/data
+      - ./neo4j/conf:/conf
+  notebook:
+    build: notebook/
+    ports:
+      - 8888:8888
+    volumes:
+       - ./:/home/jovyan/work/data
+    environment:
+      - GRANT_SUDO=yes
 volumes:
   postgres-db-volume:

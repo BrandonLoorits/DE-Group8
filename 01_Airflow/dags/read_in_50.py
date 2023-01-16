@@ -56,5 +56,6 @@ def read_in():
     #print(df.shape)
     df = df.fillna("NA")
     df.to_csv("/usr/local/airflow/op_files/tryout.csv",index=False)
+    #df.to_json("usr/local/airflow/op_files/tryout.json", orient="records", lines=True)
 
 #print(read_in())
